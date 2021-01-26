@@ -12,7 +12,8 @@ WidgetsBindingObserver should be used to get default behaviors for all of the ha
 
 So, We need to add WidgetsBindingObserver to our Stateful Widget. Some Stateful Widget methods we use here are:
 
-- When the Framework is instructed to build a StatefulWidget, it immediately calls `createState()`
+- `createState()`: When the Framework is instructed to build a
+  StatefulWidget, it immediately calls `createState()`
 - `initState()`: This is the first method called when the widget is created (after the class constructor, of course.) initState is called once and only once. It must call `super.initState()`.
 - `dispose()`:iscalledwhentheStateobjectisremoved, which is permanent. This method is where you should unsubscribe and cancel all animations, streams, etc
 
@@ -27,4 +28,6 @@ Simply The States that an application can be in
 
 # Android
 <img src="assets/images/android.jpeg" alt="Android" style="width: 100%; height: auto;">
+
 # iOS
+<img src="assets/images/ios.jpeg" alt="Android" style="width: 100%; height: auto;">
