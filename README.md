@@ -26,7 +26,5 @@ Simply The States that an application can be in
 - **detached**: The application is still hosted on a flutter engine but is detached from any host views. (Android 10 & above only)
 
 # Android
-![test image size](assets/images/android.jpeg){:class="img-responsive"}
-![test image size](assets/images/android.jpeg){:height="50%" width="50%"}
-![test image size](assets/images/android.jpeg){:height="700px" width="400px"}
+<img src="assets/images/android.jpeg" alt="Android" style="width: 100%; height: auto;">
 # iOS
